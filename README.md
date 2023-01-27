@@ -46,5 +46,17 @@ Run:
 vyst execute the_output.vstf "Hello, World!"
 ```
 It should output with "Hello." if you downloaded the greetings example.
+
+You can then use `vyst decompile the_output.vstf decompiled.vstt` to decompile your compiled grammar.
 ## Programmatical API
-comig soom
+You can also use the programmatical API to make NLP in code simpler.
+Here is an example:
+```js
+import * as fs from 'fs';
+import vyst from 'vyst';
+
+const grammar = await vyst.quickRead('greeting.vstt'); // Use vyst.quickRead to load huge grammar quickly
+const compiled = vyst.compile(grammar); // Compiles Vyst text to Vyst format
+let res = await vyst.execute(compiled, "Hello!"); // executes grammar
+console.log(res); // Logs the result of executed grammar
+```kj
