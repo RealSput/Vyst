@@ -59,4 +59,4 @@ const grammar = await vyst.quickRead('greeting.vstt'); // Use vyst.quickRead to 
 const compiled = vyst.compile(grammar); // Compiles Vyst text to Vyst format
 let res = await vyst.execute(compiled, "Hello!"); // executes grammar
 console.log(res); // Logs the result of executed grammar
-```kj
+```
