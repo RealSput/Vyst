@@ -1,0 +1,4 @@
+CRCAT questions.google "What is Google?", "What is the Google company?", "What is Google LLC?"
+CRCAT questions.addition "What is 9 + 10?", "What is 4 + 15?", "What is 11 + 8?"
+RESCAT questions.google "Google is a computer company."
+RESCAT questions.addition "The result is 19."
