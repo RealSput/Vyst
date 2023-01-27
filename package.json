@@ -1,0 +1,15 @@
+{
+    "name": "vyst",
+    "version": "1.0.0",
+    "description": "NLP made easier and size-efficient.",
+    "main": "lib/index.js",
+    "keywords": ["nlp"],
+    "author": "diegab",
+    "homepage": "https://github.com/RealSput/Vyst",
+    "license": "ISC",
+    "dependencies": {
+      "@types/node": "^18.0.6",
+      "commander": "^10.0.0",
+      "lazy.ai": "^2.2.6"
+    }
+  }
